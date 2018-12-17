@@ -1,0 +1,56 @@
+{
+  "_from": "@everymundo/aws-instance-identity@^0.1.1",
+  "_id": "@everymundo/aws-instance-identity@0.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-Pm/QhfJt9otp5rMFbbGRxhHbQj18XAlHcYqMMhnXdXKL0TMBMJnwJL4P1RFBO53cK7VU0VbvSjOrPksRGFyFCQ==",
+  "_location": "/@everymundo/aws-instance-identity",
+  "_phantomChildren": {
+    "@everymundo/json-utils": "1.0.0",
+    "@everymundo/simple-logr": "1.1.1"
+  },
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@everymundo/aws-instance-identity@^0.1.1",
+    "name": "@everymundo/aws-instance-identity",
+    "escapedName": "@everymundo%2faws-instance-identity",
+    "scope": "@everymundo",
+    "rawSpec": "^0.1.1",
+    "saveSpec": null,
+    "fetchSpec": "^0.1.1"
+  },
+  "_requiredBy": [
+    "/@everymundo/em-eureka"
+  ],
+  "_resolved": "http://registry.npmjs.org/@everymundo/aws-instance-identity/-/aws-instance-identity-0.1.1.tgz",
+  "_shasum": "1b0fefffe37a3ef2e16a98686ffb639fd9791a5e",
+  "_spec": "@everymundo/aws-instance-identity@^0.1.1",
+  "_where": "/home/everymundo/EM/microservices/google-ita-worker/node_modules/@everymundo/em-eureka",
+  "author": {
+    "name": "Daniel Santana",
+    "email": "git@danielsantana.net"
+  },
+  "bugs": {
+    "url": "https://github.com/EveryMundo/aws-instance-identity/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@everymundo/promise-data-to": "^1.2.1",
+    "socks-proxy-agent": "^4.0.1"
+  },
+  "deprecated": false,
+  "description": "Returns information about the AWS Instance that calls it",
+  "homepage": "https://github.com/EveryMundo/aws-instance-identity#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@everymundo/aws-instance-identity",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EveryMundo/aws-instance-identity.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "0.1.1"
+}
